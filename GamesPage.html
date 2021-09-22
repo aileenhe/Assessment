@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <title>Nintendo Switch Games Galore!</title>
+    <link rel="stylesheet" href="mystyle1.css">
+
+<! --- header --->
+<body>
+    <div class=wrapper>
+        <div class="header">
+        <center>
+            <h1 id="title">Nintendo Switch - Best Loved Games!!</h1>
+        </center>
+            <p>
+                <a href="index.html">
+                 <img src="logo.png" alt="" width=200px; id="logo">
+                </a>
+
+                <div class="pages">
+                <img src="pages.png" alt="" width=350px; id="pages">
+                    <a href="GamesPage.html"><div class="Games">Games</div></a>
+                    <a href="ReviewsPage.html"><div class="Reviews">Reviews</div></a>
+                    <a href="NewsPage.html"><div class="News">News</div></a>
+                    <a href="SupportPage.html"><div class="Support">Support</div></a>
+                
+                </div>
+            </p>
+
+               <div class="dropdown">
+                <button id="myBtn" class="dropbtn">Pages</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="GamesPage.html">Games</a>
+                        <a href="ReviewsPage.html">Reviews</a>
+                        <a href="NewsPage.html">News</a>
+                        <a href="SupportPage.html">Support</a>
+
+                    </div>
+
+                <script>
+                    document.getElementById("myBtn").onclick = function() {myFunction()};
+                    
+                    function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                </script>       
+        
+                </div>
+
+        </div>
+
+
+        <! --- body --->
+        <div class="body">
+            <h2>Our All Time Favourite Nintendo Switch Games!</h2>
+            <img src="gameimages/AnimalCrossing.png" alt="" width=600px; class="center1">
+            <h3>A cute game for anyone of any age, Animal Crossing: New Horizons allows you to build your dream island! Connect and play with friends using Nintendo Online!</h3>
+            <img src="gameimages/MarioKart.png" alt="" width=600px; class="center1">
+            <h3>A classic Nintendo game, Mario Kart Deluxe upgrades your Mario Kart experience. Play with your family for a good games night or compete in world championships!</h3>
+            <img src="gameimages/MarioParty.png" alt="" width=600px; class="center1">
+            <h3>A family-friendly online boardgame, Super Mario Party offers fun mini-games, quality family time and laughs all around with many different ways to play! </h3>
+            <img src="gameimages/Zelda.png" alt="" width=600px; class="center1">
+            <h3>Zelda: Breath of the Wild is an adventure game with amazing graphics! Help Link retrieve his memories and kill Calamity Ganon, restoring peace to Hyrule! </h3>
+            <img src="gameimages/SuperSmash.png" alt="" width=600px; class="center1">
+            <h3>It's everyone for themselves in Super Smash Bros Ultimate. Compete with family and friends in the ultimate tournament or collect spirits to fight the evil Galeem!</h3>
+            
+            <h2>Mini-Game!</h2>
+            <button id="startgame" type="button">Start Game!</button>          
+            <canvas id="myCanvas" width="480" height="320"></canvas>
+            <script src="button.js"></script> 
+            <h3>Press button to start, use arrow keys to move</h3>
+            <script src="minigame.js"></script>
+            <a href="GamesPage.html">Back to Top</a>
+            <h3></h3>
+            <br>
+        
+        </div>
+
+    <! --- sidebars --->
+    <div class="leftside" >
+        <center>
+            <h2 >Best Rated This Week!</h2>
+            <img src="sideimages/MarioParty.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/SuperSmash.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/Zelda.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/AnimalCrossing.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/MarioKart.png" alt="" width="185px"; class="center2">
+        </center>
+    </div>
+
+    <div class="rightside">
+        <center>
+            <h2>Best Rated This Week!</h2> 
+            <img src="sideimages/MarioParty.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/SuperSmash.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/Zelda.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/AnimalCrossing.png" alt="" width="185px"; class="center2">
+            <img src="sideimages/MarioKart.png" alt="" width="185px"; class="center2">
+        </center>
+    </div>
+
+<! --- footer --->
+<div class="footer">
+    <p>Copyright A.He <a href="storyboard.html">Story Board</a>
+    </p>
+</div>
+
+</body>
+</html>
